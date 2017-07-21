@@ -7,10 +7,12 @@ export default function Images(){
     return (
         <div className='section'>
             <h1>Images</h1>
+            <Link to='https://www.w3.org/WAI/tutorials/images/'>Complete List of Image Concepts</Link>
             <h2>Informative Images</h2>
-            <p>Images used to supplement other information</p>
             <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te. Eos id virtute docendi ullamcorper, an sumo docendi est. Senserit patrioque cotidieque in duo, assum fabellas sadipscing nec in. Vis graecis perpetua no, sint lucilius vim ei.</p>
               <div className="row">
+              <p>Images used to supplement other information</p>
+              <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te.</p>
                 <div className="col m6">
                  <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
                   <div className="card">
@@ -35,6 +37,37 @@ export default function Images(){
                         <p>Pedestrians should plan to spend around an hour getting from one side to the other. It's about a 1.3 mile walk one way.</p>
                         <Highlight className='javascript'>
                             {"<img src='brooklyn-bridge.jpg'/>"}
+                        </Highlight>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <p>Images conveying an impression or emotion</p>
+                <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te.</p>
+                <div className="col m6">
+
+                 <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
+                  <div className="card">
+                    <div className="card-image">
+                      <img src="kids.jpg" alt="Brooklyn Bridge: New York City"/>
+                    </div>
+                    <div className="card-content">
+                      <Highlight className='javascript'>
+                        {"<img src='kids.jpg' alt='We are kid friendly.'/>"}
+                    </Highlight>
+                    </div>
+                  </div>
+                </div>
+                <div className="col m6">
+                 <span className='failTop'>Incorrect <i className="fa fa-times" aria-hidden="true"></i></span>
+                  <div className="card">
+                    <div className="card-image">
+                      <img src="kids.jpg" alt="Brooklyn Bridge: New York City"/>
+                    </div>
+                    <div className="card-content">
+                        <Highlight className='javascript'>
+                            {"<img src='kids.jpg alt='Kids'/>"}
                         </Highlight>
                     </div>
                   </div>
