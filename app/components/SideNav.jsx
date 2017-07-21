@@ -13,6 +13,7 @@ export default function SideBarNav(){
             <SideNavItem divider />
             <Link to='/text'><SideNavItem waves icon='format_size'>Text</SideNavItem></Link>
             <Link to='/images'><SideNavItem waves icon='image'>Images</SideNavItem></Link>
+            <Link to='/icons'><SideNavItem waves icon='image'>Icons</SideNavItem></Link>
             <Link to='/forms'><SideNavItem waves icon='insert_comment'>Forms</SideNavItem></Link>
         </SideNav>
     )

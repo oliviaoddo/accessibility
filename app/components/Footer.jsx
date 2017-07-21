@@ -16,6 +16,7 @@ export default function Footer(props){
                 <ul>
                   <li><a href="https://www.w3.org/standards/webdesign/accessibility" className="grey-text text-lighten-3" target="_blank">W3C Web Accessibility Intro</a></li>
                   <li><a href="http://webaim.org/resources/contrastchecker/" className="grey-text text-lighten-3" target="_blank">Color Contrast Checker</a></li>
+                  <li><a href='https://www.w3.org/WAI/tutorials/images/decision-tree' className="grey-text text-lighten-3" target="_blank">Alt Decision Tree</a></li>
                 </ul>
               </div>
             </div>

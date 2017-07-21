@@ -4,11 +4,21 @@ import { Link } from 'react-router-dom';
 export default function Text(){
   return(
          <div className='section'>
-             <div className = "row">
              <h1>Text</h1>
-                <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te. Eos id virtute docendi ullamcorper, an sumo docendi est. Senserit patrioque cotidieque in duo, assum fabellas sadipscing nec in. Vis graecis perpetua no, sint lucilius vim ei.</p>
-                <p><a to="http://accessible-colors.com/" target="_blank">Accessible Colors</a></p>
+                <p>Websites should provide enough contrast between text and its background.The <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Web Content Accessibility Guidelines 2.0</a> require a contrast ratio of 4.5:1 for normal text and 3:1 for large text at level AA conformance (minimum contrast requirment). Level AAA conformance requires a contrast ratio of 7:1 for nomral text and 4.5:1 for large text. Text that is bold and 18.66px or text that is 24px is considered large text. The requirments also apply to images of text that were intended to be understood as text.</p>
+                <h2>Why is contrast important?</h2>
+                <ul>
+                  <li>People with moderately low vision who do not use assistive technology should be able to read the content on your website.</li>
+                  <li>People with color vision deficiency have a hard time reading text that does not have enough contrast as well.</li>
+                </ul>
+                <h2>When is it necessary?</h2>
+                <ul>
+                  <li>Text that is part of a logo or brand name does not need to pass any contrast requirments.</li>
+                  <li>Text that is decorative or conveys no information does not need to pass contrast requirments.</li>
+                </ul>
+                <p><a to="http://colorsafe.co/" target="_blank">Accessible Color Palettes</a></p>
                 <p><a to="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker</a></p>
+                <div className = "row">
                 <div className = 'col m6'>
                     <span className='passTop'>Pass <i className="fa fa-check" aria-hidden="true"></i></span>
                     <div className="card  pink darken-4">
