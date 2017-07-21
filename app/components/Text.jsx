@@ -5,7 +5,7 @@ export default function Text(){
   return(
          <div className='section'>
              <div className = "row">
-             <h2>Text</h2>
+             <h1>Text</h1>
                 <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te. Eos id virtute docendi ullamcorper, an sumo docendi est. Senserit patrioque cotidieque in duo, assum fabellas sadipscing nec in. Vis graecis perpetua no, sint lucilius vim ei.</p>
                 <p><a href="http://accessible-colors.com/">Accessible Colors</a></p>
                 <p><a href="http://webaim.org/resources/contrastchecker/">Color Contrast Checker</a></p>
