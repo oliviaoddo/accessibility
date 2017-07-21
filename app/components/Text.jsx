@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 export default function Text(){
   return(
@@ -7,8 +7,8 @@ export default function Text(){
              <div className = "row">
              <h1>Text</h1>
                 <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te. Eos id virtute docendi ullamcorper, an sumo docendi est. Senserit patrioque cotidieque in duo, assum fabellas sadipscing nec in. Vis graecis perpetua no, sint lucilius vim ei.</p>
-                <p><a href="http://accessible-colors.com/">Accessible Colors</a></p>
-                <p><a href="http://webaim.org/resources/contrastchecker/">Color Contrast Checker</a></p>
+                <p><a to="http://accessible-colors.com/" target="_blank">Accessible Colors</a></p>
+                <p><a to="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker</a></p>
                 <div className = 'col m6'>
                     <span className='passTop'>Pass <i className="fa fa-check" aria-hidden="true"></i></span>
                     <div className="card  pink darken-4">

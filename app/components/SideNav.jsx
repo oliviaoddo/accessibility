@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 export default function SideBarNav(){
     return (
         <SideNav
-            trigger={<Button className='menuButton waves-effect waves-light'>EXPLORE TIPS</Button>}
+            trigger={<Button className='menuButton waves-effect waves-light pink darken-4'>EXPLORE TIPS</Button>}
             options={{ closeOnClick: true }}
             >
-            <SideNavItem subheader>Web Accessibility Design Tips</SideNavItem>
+            <Link to='/'><SideNavItem waves icon='accessibility'>About</SideNavItem></Link>
             <SideNavItem divider />
-            <Link to='/'><SideNavItem waves icon='format_size'>Text</SideNavItem></Link>
+            <Link to='/text'><SideNavItem waves icon='format_size'>Text</SideNavItem></Link>
             <Link to='/images'><SideNavItem waves icon='image'>Images</SideNavItem></Link>
             <Link to='/forms'><SideNavItem waves icon='insert_comment'>Forms</SideNavItem></Link>
         </SideNav>

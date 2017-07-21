@@ -7,7 +7,7 @@ export default function Images(){
     return (
         <div className='section'>
             <h1>Images</h1>
-            <Link to='https://www.w3.org/WAI/tutorials/images/'>Complete List of Image Concepts</Link>
+            <a href='https://www.w3.org/WAI/tutorials/images/' target="_blank"> Complete List of Image Concepts</a>
             <h2>Informative Images</h2>
             <p>Lorem ipsum dolor sit amet, quo zril partem corrumpit ex, duis laoreet definiebas vix te. Eos id virtute docendi ullamcorper, an sumo docendi est. Senserit patrioque cotidieque in duo, assum fabellas sadipscing nec in. Vis graecis perpetua no, sint lucilius vim ei.</p>
               <div className="row">

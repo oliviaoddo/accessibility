@@ -6,6 +6,11 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+    font-weight: 300;
+}
+
+
 .passTop {
     color: #008500;
     font-size: 24px;
@@ -35,7 +40,6 @@ h2 {
 
 .menuButton{
     float: right;
-    background-color: #880e4f;
 }
 
 .section{
