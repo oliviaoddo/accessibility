@@ -6,7 +6,39 @@ h2 {
     font-weight: 300;
 }
 
+.passTop {
+    color: #008500;
+    font-size: 24px;
+    margin-left: 75%;
+}
 
-/*body {
-   background: linear-gradient(#ffebee, #e57373);
-}*/
+.failTop {
+    color: #cc0000;
+    font-size: 24px;
+    margin-left: 75%;
+}
+
+.pass {
+    color: #008500;
+    font-size: 24px;
+}
+
+.fail {
+    color: #cc0000;
+    font-size: 24px;
+}
+
+.paragraph{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.menuButton{
+    float: right;
+    background-color: #880e4f;
+}
+
+.section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
