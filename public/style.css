@@ -13,6 +13,23 @@ p, li {
 .fa-heart {
     color: #880e4f;
 }
+
+.fa-star, .fa-star-half-o{
+    color: #000;
+ }
+
+.sr-only{
+    display: none;
+}
+
+.fa-trash-o{
+    color: red;
+}
+
+#test{
+    font-size: 30px;
+}
+
 .code-inline {
     background-color: #eeeeee ;
     color: black;

@@ -28,7 +28,7 @@ export default function Images(){
                     </div>
                     <div className="card-content">
                     <p>Pedestrians should plan to spend around an hour getting from one side to the other. It's about a 1.3 mile walk one way.</p>
-                      <Highlight className='javascript'>
+                      <Highlight className='html'>
                         {"<img src='brooklyn-bridge.jpg' alt='Brooklyn Bridge: New York City'/>"}
                     </Highlight>
                     </div>
@@ -42,7 +42,7 @@ export default function Images(){
                     </div>
                     <div className="card-content">
                         <p>Pedestrians should plan to spend around an hour getting from one side to the other. It's about a 1.3 mile walk one way.</p>
-                        <Highlight className='javascript'>
+                        <Highlight className='html'>
                             {"<img src='brooklyn-bridge.jpg'/>"}
                         </Highlight>
                     </div>
@@ -60,7 +60,7 @@ export default function Images(){
                       <img src="kids.jpg" alt="Brooklyn Bridge: New York City"/>
                     </div>
                     <div className="card-content">
-                      <Highlight className='javascript'>
+                      <Highlight className='html'>
                         {"<img src='kids.jpg' alt='We are kid friendly.'/>"}
                     </Highlight>
                     </div>
@@ -73,7 +73,7 @@ export default function Images(){
                       <img src="kids.jpg" alt="Brooklyn Bridge: New York City"/>
                     </div>
                     <div className="card-content">
-                        <Highlight className='javascript'>
+                        <Highlight className='html'>
                             {"<img src='kids.jpg alt='Kids'/>"}
                         </Highlight>
                     </div>
@@ -91,7 +91,7 @@ export default function Images(){
                       <img src="pineapples.jpg" alt=""/>
                     </div>
                     <div className="card-content">
-                      <Highlight className='javascript'>
+                      <Highlight className='html'>
                         {"<img src='pineapples.jpg' alt=''/>"}
                     </Highlight>
                     </div>
@@ -106,7 +106,7 @@ export default function Images(){
                     </div>
                     <div className="card-content">
                         <p>Happy Dog: Dog's love sticking their head's outside of car windows while the car is moving.</p>
-                        <Highlight className='javascript'>
+                        <Highlight className='html'>
                             {"<img src='happy-dog.jpg' alt=''/>"}
                         </Highlight>
                     </div>
@@ -124,7 +124,7 @@ export default function Images(){
                       <img src="twitter.png" alt=""/>
                     </div>
                     <div className="card-content">
-                      <Highlight className='javascript'>
+                      <Highlight className='html'>
                         {"<a href='http://twitter.com'><img src='twitter.png' alt='Twitter home'/></a>"}
                     </Highlight>
                     </div>
@@ -137,7 +137,7 @@ export default function Images(){
                       <img src="print.png" alt=""/>
                     </div>
                     <div className="card-content">
-                        <Highlight className='javascript'>
+                        <Highlight className='html'>
                             {"<Link onClick={this.handlePrint}><img src='print.png' alt='Print this page'/></Link>"}
                         </Highlight>
                     </div>
