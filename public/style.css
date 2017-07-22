@@ -75,19 +75,31 @@ p, li {
     margin-top: 20px;
 }
 
+fieldset{
+    border: none;
+}
+
 /* label color */
 .input-field label {
  color: #000;
 }
 /* label focus color */
-.input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label {
     color: #880e4f !important;
 }
 /* label underline focus color */
-.input-field input[type=text]:focus {
+.input-field input[type=text]:focus, .input-field input[type=email]:focus {
  border-bottom: 1px solid #880e4f !important;
  box-shadow: 0 1px 0 0 #880e4f !important;
 }
+
+/* label underline focus color */
+.input-field input[type=text], .input-field input[type=email] {
+ border-bottom: 1px solid #880e4f !important;
+ box-shadow: 0 1px 0 0 #880e4f !important;
+}
+
+
 /* valid color */
 .input-field input[type=text].valid , .input-field input[type=email].valid {
  border-bottom: 1px solid #008500;
@@ -120,4 +132,14 @@ input[type=email]:not(.browser-default).valid+label:after, input[type=email]:not
 /* icon prefix focus color */
 .input-field .prefix.active {
  color: #000;
+}
+
+input.with-gap.bad-example{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+}
+
+.bad-label{
+    color: #d1d1d1;
 }
