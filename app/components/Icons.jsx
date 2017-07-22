@@ -7,7 +7,7 @@ export default function Icons(){
     return (
              <div className='section'>
                 <h1>Accessible Font Awesome Icons</h1>
-                <p><a href='http://fontawesome.io/accessibility/'>Using Font Awesome with Acessibility in mind</a></p>
+                <p><a href='http://fontawesome.io/accessibility/' target='_blank'>Using Font Awesome with Acessibility in mind</a></p>
                 <p>It is important to make icons that convery information or initiate an action such as a button or link accessible. Font awesome provides a CDN that has auto accessibility. However, you can set up accessibility manually with Font Awesome Icons. Below are some examples.</p>
                 <h2>Icons used for visual styling or decoration</h2>
                 <p>Icons that are for pure decoration or branding do not need to be announced by screen readers. Screen readers will skip icons that have the <span className='code-inline'>aria-hidden</span> attribute set to true.</p>
