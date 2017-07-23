@@ -7,6 +7,7 @@ import Icons from './Icons';
 import About from './About';
 import Forms from './Forms';
 import Footer from './Footer';
+import CSS from './CSS';
 import store from "../store";
 
 
@@ -23,6 +24,7 @@ export default class Main extends Component{
                             <Route exact path={`/images`} component={Images} />
                             <Route exact path={`/icons`} component={Icons} />
                             <Route exact path={`/forms`} component={Forms} />
+                            <Route exact path={`/css`} component={CSS} />
                         </Switch>
                     </div>
                     </Router>

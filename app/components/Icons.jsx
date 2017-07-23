@@ -48,7 +48,7 @@ export default function Icons(){
                                     <i className="fa fa-star fa-5x" aria-hidden="true"></i>
                                     <i className="fa fa-star fa-5x" aria-hidden="true"></i>
                                     <i className="fa fa-star-half-o fa-5x" aria-hidden="true"></i>
-                                    <span className="sr-only">4.5 out of 5 stars</span>
+                                    <span className='visuallyhidden'>4.5 out of 5 stars</span>
                                 </div>
                                <Highlight className='html'>
 
@@ -62,7 +62,7 @@ export default function Icons(){
                             <div className="card-content white-text">
                               <div id='test'>
                                 Start Test <i className="fa fa-hourglass-half" aria-hidden="true" title="The test is timed."></i>
-                                <span className="sr-only">The test is timed.</span>
+                                <span className="visuallyhidden">The test is timed.</span>
                                 </div>
                                <Highlight className='html'>
                                     {`<i class="fa fa-hourglass-half" aria-hidden="true" title="The test is timed."></i>\n<span class="sr-only">The test is timed.</span>`}
