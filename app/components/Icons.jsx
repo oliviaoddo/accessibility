@@ -36,6 +36,7 @@ export default function Icons(){
                 </div>
                 <h2>Icons that provide information</h2>
                 <p>Icons that convey meaning need to be conveyed to the screen reader as well. Text alternatives can be provided with the use of a <span className='code-inline'>span</span> tag. If you do not want the description to be displayed visually, you can hide it with CSS. The <span className='code-inline'>title</span> attribute can be added to the icon for users who may have a hard time understanding what icons are suppossed to mean. When an icon is hovered over, the description will be displayed.</p>
+                <p><a href='/css'>How to hide span elements correctly.</a></p>
                 <h3>Examples</h3>
                 <div className='row'>
                     <div className='col m6'>
@@ -53,9 +54,6 @@ export default function Icons(){
 
                                     {`<div class='star-rating'>\n\t<i class='fa fa-star' aria-hidden='true'></i>\n\t<i class='fa fa-star' aria-hidden='true'></i>\n\t<i class='fa fa-star' aria-hidden='true'></i>\n\t<i class='fa fa-star' aria-hidden='true'></i>\n\t<i class='fa fa-star-half-o' aria-hidden='true'></i>\n\t<span class='sr-only'>4.5 out of 5 stars</span>\n</div>`}
                                 </Highlight>
-                                 <Highlight className='css'>
-                                    {`.sr-only{\n\tdisplay: none;\n}`}
-                                </Highlight>
                           </div>
                         </div>
                     </div>
@@ -67,9 +65,6 @@ export default function Icons(){
                                 </a>
                                <Highlight className='html'>
                                     {`<i class="fa fa-hourglass-half" aria-hidden="true" title="The test is timed."></i>\n<span class="sr-only">The test is timed.</span>`}
-                                </Highlight>
-                                 <Highlight className='css'>
-                                    {`.sr-only{\n\tdisplay: none;\n}`}
                                 </Highlight>
                           </div>
                         </div>
@@ -104,7 +99,7 @@ export default function Icons(){
                                 </tbody>
                               </table>
                                <Highlight className='html'>
-                                    {`<Link className="btn btn-danger" onClick="{this.deleteItem}" aria-label="Delete">\n\t<i class="fa fa-trash-o" aria-hidden="true" title="Delete this item?"></i>\n</a>`}
+                                    {`<Link className="btn btn-danger" onClick="{this.deleteItem}" aria-label="Delete">\n\t<i class="fa fa-trash-o" aria-hidden="true" title="Delete this item?"></i>\n</Link>`}
                                 </Highlight>
                           </div>
                         </div>
