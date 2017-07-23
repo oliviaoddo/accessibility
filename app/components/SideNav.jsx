@@ -9,15 +9,19 @@ export default function SideBarNav(){
             trigger={<Button className='menuButton waves-effect waves-light pink darken-4'>EXPLORE TIPS</Button>}
             options={{ closeOnClick: true }}
             >
-            <Link to='/'><SideNavItem waves icon='accessibility'>About</SideNavItem></Link>
-            <SideNavItem divider />
-            <Link to='/text'><SideNavItem waves icon='format_size'>Text</SideNavItem></Link>
-            <Link to='/images'><SideNavItem waves icon='image'>Images</SideNavItem></Link>
-            <Link to='/icons'><SideNavItem waves icon='image'>Icons</SideNavItem></Link>
-            <Link to='/forms'><SideNavItem waves icon='insert_comment'>Forms</SideNavItem></Link>
-            <Link to='/navigation'><SideNavItem waves icon='map'>Navigation</SideNavItem></Link>
-            <Link to='/css'><SideNavItem waves icon='visibility'>CSS</SideNavItem></Link>
-            <Link to='/aria'><SideNavItem waves icon='insert_comment'>Aria</SideNavItem></Link>
+            <ul>
+                <li>
+                    <Link to='/' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>accessibility</i> About</Link>
+                </li>
+                <hr />
+                <li><Link to='/text' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>format_size</i> Text</Link></li>
+                <li><Link to='/images' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>image</i> Images</Link></li>
+                <li><Link to='/icons' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>accessibility</i> Icons</Link></li>
+                <li><Link to='/forms' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>insert_comment</i> Forms</Link></li>
+                <li><Link to='/navigation' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>map</i> Navigation</Link></li>
+                <li><Link to='/css' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>visibility</i> CSS</Link></li>
+                <li><Link to='/aria' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>accessibility</i> Aria</Link></li>
+            </ul>
         </SideNav>
     )
 }

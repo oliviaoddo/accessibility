@@ -7,8 +7,8 @@ export default function Images(){
     return (
         <div className='section'>
             <h1>Images</h1>
-            <p><a href='https://www.w3.org/WAI/tutorials/images/' target="_blank"> Complete List of Image Concepts</a></p>
-            <p><a href='https://www.w3.org/WAI/tutorials/images/decision-tree' target='_blank'>Alt Decision Tree</a></p>
+            <p><a className='pink-focus' href='https://www.w3.org/WAI/tutorials/images/' target="_blank"> Complete List of Image Concepts</a></p>
+            <p><a className='pink-focus' href='https://www.w3.org/WAI/tutorials/images/decision-tree' target='_blank'>Alt Decision Tree</a></p>
             <div className="card grey lighten-5">
                 <div className="card-content">
                     <h2>Why is it important for images to have text alternatives?</h2>
@@ -114,7 +114,7 @@ export default function Images(){
                 </div>
             </div>
             <h3>Functional Images</h3>
-            <p><Link to='icons'>What if I want to use icons instead of images?</Link></p>
+            <p><Link  className='pink-focus' to='icons'>What if I want to use icons instead of images?</Link></p>
             <p>Images that initiate actions rather than convey information are considered functional. Examples may include an image used as a button or link. The text alternative should describe the action that will occur once selected. If an alt tag is missing it is hard for someone using a screen reader to know what action will be initiated by the imag.</p>
               <div className="row">
                 <div className="col m6">

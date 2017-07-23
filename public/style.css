@@ -10,7 +10,7 @@ p, li {
     font-size: 18px;
 }
 
-.fa-heart {
+.fa-heart, .fa-shopping-cart {
     color: #880e4f;
 }
 
@@ -26,8 +26,17 @@ p, li {
     color: red;
 }
 
+a {
+    color: #0274ab;
+}
+
 #test{
     font-size: 30px;
+    color: #0274ab;
+}
+
+#view-git{
+    color: #0274ab;
 }
 
 .code-inline {
@@ -65,6 +74,12 @@ p, li {
     float: right;
 }
 
+.menuButton:focus{
+    outline: #880e4f solid 5px;
+    background-color: white !important;
+    color: #880e4f;
+}
+
 .section{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -74,6 +89,21 @@ p, li {
     margin-left: 75%;
     margin-top: 20px;
 }
+
+.submitButton:focus{
+    outline: #880e4f solid 5px;
+    background-color: white !important;
+    color: #880e4f;
+}
+
+.pink-focus:focus {
+    outline: #880e4f solid 3px;
+}
+
+.white-focus:focus {
+    outline: #fff solid 3px;
+}
+
 
 fieldset{
     border: none;

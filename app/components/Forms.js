@@ -6,7 +6,7 @@ export default function Forms(){
     return (
             <div className='section'>
                 <h1>Forms</h1>
-                <p><a href="https://www.w3.org/WAI/tutorials/forms/" target='_blank'>Complete List of Form Concepts</a></p>
+                <p><a className='pink-focus' href="https://www.w3.org/WAI/tutorials/forms/" target='_blank'>Complete List of Form Concepts</a></p>
                 <p>Forms can be made more accessible by incorporating labeling controls, grouping controls, form instructions, input validation, and user notifications.</p>
                 <h2>Why is it important for forms to be accessible?</h2>
                 <ol>
@@ -69,7 +69,7 @@ export default function Forms(){
                     <li>A label that describes the purpose of the form control is given to every form control.</li>
                     <li>The id of the input matches the for attribute value on the label. This ensures that the two are associated with one another.</li>
                     <li>When labels and inputs are used correctly, users can click on the label or select a label via voice command and the associated form control will be focused on.</li>
-                    <li>Labels can be hidden with CSS, but make sure you <a href='/css'>hide them correctly.</a></li>
+                    <li>Labels can be hidden with CSS, but make sure you <a className='pink-focus' href='/css'>hide them correctly.</a></li>
                     <li>The button label is provided by the text inside tge button element.</li>
                 </ol>
             <p>Form Instructions</p>
@@ -158,7 +158,7 @@ export default function Forms(){
                   <div className="card">
                     <div className="card-content">
                         <Highlight className='html'>
-                            {`<form>\n\t<p>Account Information</p>\n\t<input type='text' name ='first_name' placeholder='First Name' />\n\t<input type='text' name ='last_name' placeholder='Last Name'/>\n\t<input type='text' name ='email' placeholder='Email' required/>\n\t<input type='text' name ='birthday' pattern='(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d' placeholder='Birth Date' required />\n\t<p>Campus Location</p>\n\t<input type='radio' name ='campus' value='nyc' checked/>\n\t<span> New York City</span><br/>\n\t<input type='radio' name ='campus' value='sf'/><span> San Francisco</span><br/>\n\t<input type='radio' name ='campus' value='chi'/><span> Chicago</span><br/>\n\t<input class='btn' type="submit"/>\n</form>`}
+                            {`<form>\n\t<p>Account Information</p>\n\t<input type='text' name ='first_name' placeholder='First Name' />\n\t<input type='text' name ='last_name' placeholder='Last Name'/>\n\t<input type='text' name ='email' placeholder='Email' required/>\n\t<input type='text' name ='birthday' pattern='(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d' placeholder='Birth Date' required />\n\t<p>Campus Location</p>\n\t<input type='radio' name ='campus' value='nyc' checked/><span> New York City</span><br/>\n\t<input type='radio' name ='campus' value='sf'/><span> San Francisco</span><br/>\n\t<input type='radio' name ='campus' value='chi'/><span> Chicago</span><br/>\n\t<input class='btn' type="submit"/>\n</form>`}
                         </Highlight>
                     </div>
                   </div>
