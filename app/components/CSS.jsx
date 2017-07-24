@@ -10,7 +10,7 @@ export default function CSS(){
             <h3>Examples</h3>
             <p>Both of these examples are incorrect ways to hide text alternatives. Screen readers and other assistive technologies hide elements from the user that are styled in this way.</p>
             <div className='row'>
-             <div className = 'col m6'>
+             <div className = 'col m6 s12'>
                     <span className='failTop'>Incorrect <i className="fa fa-times" aria-hidden="true"></i></span>
                     <div className="card">
                         <div className='card-content'>
@@ -20,7 +20,7 @@ export default function CSS(){
                         </div>
                     </div>
                 </div>
-             <div className = 'col m6'>
+             <div className = 'col m6 s12'>
                     <span className='failTop'>Incorrect <i className="fa fa-times" aria-hidden="true"></i></span>
                     <div className="card">
                         <div className='card-content'>
@@ -34,7 +34,7 @@ export default function CSS(){
             <h3>Example</h3>
             <p>This snippet of CSS will visually hide label and span elements while keeping them available to assistive technologies.</p>
             <div className='row'>
-             <div className = 'col m12'>
+             <div className = 'col m12 s12'>
                     <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
                     <div className="card">
                         <div className='card-content'>

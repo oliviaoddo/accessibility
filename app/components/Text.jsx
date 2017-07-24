@@ -19,7 +19,7 @@ export default function Text(){
                 <p><a className='pink-focus' to="http://colorsafe.co/" target="_blank">Accessible Color Palettes</a></p>
                 <p><a className='pink-focus' to="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker</a></p>
                 <div className = "row">
-                <div className = 'col m6'>
+                <div className = 'col m6 s12'>
                     <span className='passTop'>Pass <i className="fa fa-check" aria-hidden="true"></i></span>
                     <div className="card  pink darken-4">
                         <div className="card-content white-text">
@@ -28,7 +28,7 @@ export default function Text(){
                         </div>
                     </div>
                 </div>
-                <div className = 'col m6'>
+                <div className = 'col m6 s12'>
                     <span className='failTop'>Fail <i className="fa fa-times" aria-hidden="true"></i></span>
                     <div className="card teal lighten-2">
                         <div className="card-content white-text">
@@ -39,7 +39,7 @@ export default function Text(){
                 </div>
              </div>
              <div className = "row">
-                <div className = 'col m6'>
+                <div className = 'col m6 s12'>
                     <div className="card  grey lighten-5">
                         <div className="card-content black-text">
                           <p className='card-title'>Contrast Ratio: 9.45:1 </p>
@@ -54,7 +54,7 @@ export default function Text(){
                         </div>
                     </div>
                 </div>
-                <div className = 'col m6'>
+                <div className = 'col m6 s12'>
                     <div className="card grey lighten-5">
                         <div className="card-content black-text">
                           <p className='card-title'>Contrast Ratio: 2.44:1 </p>

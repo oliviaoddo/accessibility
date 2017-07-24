@@ -17,7 +17,7 @@ export default function Forms(){
                     <li>People who use screen readers can more easily understand what input is needed when labels and field sets are used.</li>
                 </ol>
                 <div className="row">
-                <div className="col m12">
+                <div className="col m12 s12>
                  <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
                   <div className="card">
                     <div className="card-content">

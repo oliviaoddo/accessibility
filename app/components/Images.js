@@ -20,7 +20,7 @@ export default function Images(){
              <h4>Example: Images used to supplement other information</h4>
               <p>This photo of the Broolyn Bridge supplements the text below it, therefore it is important to add an alt attribute with a short description of what the photo is. Someone using a screen reader would have no idea what the text is referring to.</p>
               <div className="row">
-                <div className="col m6">
+                <div className="col m6 s12">
                  <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
                   <div className="card">
                     <div className="card-image">
@@ -34,7 +34,7 @@ export default function Images(){
                     </div>
                   </div>
                 </div>
-                <div className="col m6">
+                <div className="col m6 s12">
                  <span className='failTop'>Incorrect <i className="fa fa-times" aria-hidden="true"></i></span>
                   <div className="card">
                     <div className="card-image">
@@ -52,7 +52,7 @@ export default function Images(){
             <h4>Example: Images conveying an impression or emotion</h4>
             <p>If a photo is being used to give an impression of a website or company, the text alternative should describe the intended impression.</p>
             <div className="row">
-                <div className="col m6">
+                <div className="col m6 s12">
 
                  <span className='passTop'>Correct <i className="fa fa-check" aria-hidden="true"></i></span>
                   <div className="card">
@@ -66,7 +66,7 @@ export default function Images(){
                     </div>
                   </div>
                 </div>
-                <div className="col m6">
+                <div className="col m6 s12">
                  <span className='failTop'>Incorrect <i className="fa fa-times" aria-hidden="true"></i></span>
                   <div className="card">
                     <div className="card-image">
@@ -83,7 +83,7 @@ export default function Images(){
             <h3>Decorative Images</h3>
             <p>Images that do not add information to the content of the page can be considered decorative. Therefore, alternative text can be left out. Assistive technologies will ignore images with null alt text. Why not put an altertaive text at all times? Images that are not adding information to the content would add audible clutter, and could distract users from the actual content of the page. It is also important to include an alt attribute with a null value as opposed to leaving the alt attribute out all together, because some screen readers will read the file name when an alt attribute is not present.</p>
               <div className="row">
-                <div className="col m6">
+                <div className="col m6 s12">
                 <h4>Example: Image used for ambiance (eye-candy)</h4>
                 <p>A photo that is there to improve the look of the page should have a null alt attribute.</p>
                   <div className="card">
@@ -97,7 +97,7 @@ export default function Images(){
                     </div>
                   </div>
                 </div>
-                <div className="col m6">
+                <div className="col m6 s12">
                 <h4>Example: Image with adjacent text alternative</h4>
                 <p>When a photo is already sufficiently described by adjacent text, there is no need to repeat the information. Therefore, the alt attribute should be null.</p>
                   <div className="card">
@@ -117,7 +117,7 @@ export default function Images(){
             <p><Link  className='pink-focus' to='icons'>What if I want to use icons instead of images?</Link></p>
             <p>Images that initiate actions rather than convey information are considered functional. Examples may include an image used as a button or link. The text alternative should describe the action that will occur once selected. If an alt tag is missing it is hard for someone using a screen reader to know what action will be initiated by the imag.</p>
               <div className="row">
-                <div className="col m6">
+                <div className="col m6 s12">
                 <h4>Example: Image used alone as a linked logo.</h4>
                   <div className="card">
                     <div className="card-image">
@@ -130,7 +130,7 @@ export default function Images(){
                     </div>
                   </div>
                 </div>
-                <div className="col m6">
+                <div className="col m6 s12">
                 <h4>Example: Stand alone icon image.</h4>
                   <div className="card">
                     <div className="card-image">
