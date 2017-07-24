@@ -9,7 +9,7 @@
     "build-watch": "webpack -w",
     "start-watch": "nodemon server/start.js",
     "start": "node server/start.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "heroku-postbuild": "webpack"
   },
   "keywords": [
     "react",
