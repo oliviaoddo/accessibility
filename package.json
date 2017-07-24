@@ -8,9 +8,7 @@
     "build": "webpack",
     "build-watch": "webpack -w",
     "start-watch": "nodemon server/start.js",
-    "start": "node server/start.js",
-    "prod": "NODE_ENV=production node server/start.js",
-    "postinstall": "webpack -p"
+    "start": "node server/start.js"
   },
   "keywords": [
     "react",
