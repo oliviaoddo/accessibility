@@ -13,7 +13,7 @@ export default function Icons(){
                 <p>Icons that are for pure decoration or branding do not need to be announced by screen readers. Screen readers will skip icons that have the <span className='code-inline'>aria-hidden</span> attribute set to true.</p>
                 <h3>Examples</h3>
                 <div className='row'>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
                                 <i className="fa fa-heart fa-5x" aria-hidden="true"></i>
@@ -23,7 +23,7 @@ export default function Icons(){
                           </div>
                         </div>
                     </div>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
                                 <div id="view-git"><i className='fa fa-github fa-5x' aria-hidden='true'></i> View My Github</div>
@@ -39,7 +39,7 @@ export default function Icons(){
                 <p><a className='pink-focus' href='/css'>How to hide span elements correctly.</a></p>
                 <h3>Examples</h3>
                 <div className='row'>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
                                 <div>
@@ -57,7 +57,7 @@ export default function Icons(){
                           </div>
                         </div>
                     </div>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
                               <div id='test'>
@@ -75,7 +75,7 @@ export default function Icons(){
                 <p>If an icon is interactive and focusable, the <span className='code-inline'>aria-label</span> attribute with a text description can be used instead of a <span className='code-inline'>span</span> text alternative.</p>
                 <h3>Examples</h3>
                 <div className='row'>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
                                 <table className='striped black-text'>
@@ -105,7 +105,7 @@ export default function Icons(){
                           </div>
                         </div>
                     </div>
-                    <div className='col m6'>
+                    <div className='col m6 s12'>
                          <div className="card grey lighten-4">
                             <div className="card-content white-text">
 
