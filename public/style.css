@@ -92,7 +92,11 @@ a {
 }
 
 .section{
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button.btn.menuButton.waves-effect.waves-light.pink.darken-4 {
     margin-bottom: 5%;
 }
 
