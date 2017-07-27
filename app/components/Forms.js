@@ -12,7 +12,6 @@ export default function Forms(){
                 <ol>
                     <li>It is easier for people with cognitive disabilities to complete forms when they are provided with instructions and feedback.</li>
                     <li>People who use speech input can use labels via voice commands to activate controls, and move between fields and focus on them.</li>
-                    <li>People who use speech input can use labels via voice commands to activate controls, and move between fields and focus on them.</li>
                     <li>People with mobility impairment benefit from being able to click on the large area that labels provide. When a label is clicked, the input is focused on, which is especially helpful for smaller inputs such as radio buttons and checkboxes.</li>
                     <li>People who use screen readers can more easily understand what input is needed when labels and field sets are used.</li>
                 </ol>

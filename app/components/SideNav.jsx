@@ -21,19 +21,13 @@ export default function SideBarNav(){
                     <Link to='/images' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>image</i> Images</Link>
                 </li>
                 <li>
-                    <Link to='/icons' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>accessibility</i> Icons</Link>
+                    <Link to='/icons' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>info</i> Icons</Link>
                 </li>
                 <li>
                     <Link to='/forms' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>insert_comment</i> Forms</Link>
                 </li>
                 <li>
-                    <Link to='/navigation' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>map</i> Navigation</Link>
-                </li>
-                <li>
                     <Link to='/css' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>visibility</i> CSS</Link>
-                </li>
-                <li>
-                    <Link to='/aria' className='pink-focus nav-item'><i className="material-icons" aria-hidden='true'>accessibility</i> Aria</Link>
                 </li>
             </ul>
         </SideNav>

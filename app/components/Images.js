@@ -115,7 +115,7 @@ export default function Images(){
             </div>
             <h3>Functional Images</h3>
             <p><Link  className='pink-focus' to='icons'>What if I want to use icons instead of images?</Link></p>
-            <p>Images that initiate actions rather than convey information are considered functional. Examples may include an image used as a button or link. The text alternative should describe the action that will occur once selected. If an alt tag is missing it is hard for someone using a screen reader to know what action will be initiated by the imag.</p>
+            <p>Images that initiate actions rather than convey information are considered functional. Examples may include an image used as a button or link. The text alternative should describe the action that will occur once selected. If an alt tag is missing it is hard for someone using a screen reader to know what action will be initiated by the image.</p>
               <div className="row">
                 <div className="col m6 s12">
                 <h4>Example: Image used alone as a linked logo.</h4>
